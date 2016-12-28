@@ -18,6 +18,7 @@ namespace TipCalculator
 			this.View.BackgroundColor = UIColor.Yellow;
 
 			UITextField totalAmount = new UITextField(new CGRect(20, 28, View.Bounds.Width - 40, 35))
+
 			{
 				KeyboardType = UIKeyboardType.DecimalPad,
 				BorderStyle = UITextBorderStyle.RoundedRect,
@@ -40,6 +41,16 @@ namespace TipCalculator
 			};
 
 			View.AddSubviews(totalAmount, calcButton, resultLabel);
-		}
+
+            View.AddSubviews(new UIView[] { totalAmount, calcButton, resultLabel });
+
+            calcButton.TouchUpInside += (s, e) => {
+                double value = 0;
+                Double.TryParse(totalAmount.Text, out value);
+                resultLabel.Text = string.Format("Tip is {0:C}", value * 0.2);
+
+                totalAmount.ResignFirstResponder();
+            };
+        }
 	}
 }
