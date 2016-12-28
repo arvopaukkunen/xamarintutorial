@@ -1,0 +1,44 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TipCalculator", "TipCalculator\TipCalculator.csproj", "{9CC331B3-0595-45A1-927D-08C07FC73F65}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|iPhoneSimulator = Debug|iPhoneSimulator
+		Release|iPhone = Release|iPhone
+		Release|iPhoneSimulator = Release|iPhoneSimulator
+		Debug|iPhone = Debug|iPhone
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9CC331B3-0595-45A1-927D-08C07FC73F65}.Debug|iPhoneSimulator.ActiveCfg = Debug|iPhoneSimulator
+		{9CC331B3-0595-45A1-927D-08C07FC73F65}.Debug|iPhoneSimulator.Build.0 = Debug|iPhoneSimulator
+		{9CC331B3-0595-45A1-927D-08C07FC73F65}.Release|iPhone.ActiveCfg = Release|iPhone
+		{9CC331B3-0595-45A1-927D-08C07FC73F65}.Release|iPhone.Build.0 = Release|iPhone
+		{9CC331B3-0595-45A1-927D-08C07FC73F65}.Release|iPhoneSimulator.ActiveCfg = Release|iPhoneSimulator
+		{9CC331B3-0595-45A1-927D-08C07FC73F65}.Release|iPhoneSimulator.Build.0 = Release|iPhoneSimulator
+		{9CC331B3-0595-45A1-927D-08C07FC73F65}.Debug|iPhone.ActiveCfg = Debug|iPhone
+		{9CC331B3-0595-45A1-927D-08C07FC73F65}.Debug|iPhone.Build.0 = Debug|iPhone
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		Policies = $0
+		$0.DotNetNamingPolicy = $1
+		$1.DirectoryNamespaceAssociation = None
+		$1.ResourceNamePolicy = FileFormatDefault
+		$0.NameConventionPolicy = $2
+		$2.Rules = $3
+		$3.NamingRule = $4
+		$4.Name = Type Parameters
+		$4.AffectedEntity = TypeParameter
+		$4.VisibilityMask = VisibilityMask
+		$4.NamingStyle = PascalCase
+		$4.IncludeInstanceMembers = True
+		$4.IncludeStaticEntities = True
+		$4.RequiredPrefixes = $5
+		$5.String = T
+		$4.RequiredSuffixes = $6
+		$6.String = Exception
+		$0.VersionControlPolicy = $7
+		$7.inheritsSet = Mono
+	EndGlobalSection
+EndGlobal
