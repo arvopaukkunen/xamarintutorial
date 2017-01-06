@@ -34,7 +34,7 @@ namespace Phoneword
 
 			panel.Children.Add(phoneNumberText = new Entry
 			{
-				Text = "1-855-XAMARIN",
+				Text = "1-855-ARVOSOFT",
 			});
 
 			panel.Children.Add(translateButton = new Button
@@ -73,9 +73,9 @@ namespace Phoneword
 		{
 				if (await this.DisplayAlert(
 					"Dial a Number",
-					"Would you like to call " + translatedNumber + "?",
-					"Yes",
-					"No")) {
+					"Would you really like to call " + translatedNumber + "?",
+					"Yep",
+					"Nope")) {
 					var dialer = DependencyService.Get<IDialer>();
 					if (dialer != null) {
 						await dialer.DialAsync(translatedNumber);
