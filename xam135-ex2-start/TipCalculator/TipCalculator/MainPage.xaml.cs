@@ -47,7 +47,7 @@ namespace TipCalculator
 			}
 		}
 
-		void OnNormalTip  (object sender, EventArgs e) { tipPercentSlider.Value = 15; }
+		void OnNormalTip  (object sender, EventArgs e) { tipPercentSlider.Value = 16; }
 		void OnGenerousTip(object sender, EventArgs e) { tipPercentSlider.Value = 20; }
 	}
 }
